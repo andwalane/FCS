@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Our Online Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .product-card {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            padding: 1rem;
+            background-color: #fff;
+            border: 1px solid #dee2e6;
+            border-radius: 0.375rem;
+        }
+
+        .product-card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 0.375rem;
+        }
+
+        .price {
+            font-weight: 700;
+            color: #333;
+            margin: 0.75rem 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container-fluid bg-light border-bottom py-3">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-6 col-md-3">
+                    <a href="#" class="navbar-brand fw-bold fs-4 text-dark">Alfredo Ndwalane Online Store</a>
+                </div>
+                <div class="col-12 col-md-6 order-last order-md-0 mt-3 mt-md-0">
+                    <nav class="d-flex justify-content-center gap-3">
+                        <a href="#" class="text-decoration-none text-muted">Home</a>
+                        <a href="#" class="text-decoration-none text-muted">Features</a>
+                        <a href="#" class="text-decoration-none text-muted">Pricing</a>
+                        <a href="#" class="text-decoration-none text-muted">Contact</a>
+                    </nav>
+                </div>
+                <div class="col-6 col-md-3 text-end">
+                    <button class="btn btn-primary btn-sm">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <section>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=800&q=80"
+                        alt="Coffee Maker">
+                    <h3>Coffee Maker</h3>
+                    <p class="price">R7299.00</p>
+                    <button class="btn btn-dark w-100 mt-auto">Buy</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1585518419759-7fe2e0fbf8a6?auto=format&fit=crop&w=800&q=80"
+                        alt="Dining table lighting">
+                    <h3>Dining table lighting</h3>
+                    <p class="price">R620.00</p>
+                    <button class="btn btn-dark w-100 mt-auto">Buy</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80"
+                        alt="Glass & Shiny Surface Cleaner">
+                    <h3>Glass & Shiny Surface Cleaner</h3>
+                    <p class="price">R1999.00</p>
+                    <button class="btn btn-dark w-100 mt-auto">Buy</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80"
+                        alt="Tumble Dryer">
+                    <h3>Tumble Dryer</h3>
+                    <p class="price">R11999.00</p>
+                    <button class="btn btn-dark w-100 mt-auto">Buy</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80"
+                        alt="Window Dryer">
+                    <h3>Window Dryer</h3>
+                    <p class="price">R99.00</p>
+                    <button class="btn btn-dark w-100 mt-auto">Buy</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=800&q=80"
+                        alt="Fridge">
+                    <h3>Fridge</h3>
+                    <p class="price">R12600.00</p>
+                    <button class="btn btn-dark w-100 mt-auto">Buy</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1585518419759-7fe2e0fbf8a6?auto=format&fit=crop&w=800&q=80"
+                        alt="Dining Table Decor">
+                    <h3>Dining Table Decor</h3>
+                    <p class="price">R320.00</p>
+                    <button class="btn btn-dark w-100 mt-auto">Buy</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80"
+                        alt="Face PPE Cover">
+                    <h3>Face PPE Cover</h3>
+                    <p class="price">R249.00</p>
+                    <button class="btn btn-dark w-100 mt-auto">Buy</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=80"
+                        alt="Multi-Cooker">
+                    <h3>Multi-Cooker</h3>
+                    <p class="price">R3999.00</p>
+                    <button class="btn btn-dark w-100 mt-auto">Buy</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&w=800&q=80"
+                        alt="Vacuum Cleaner">
+                    <h3>Vacuum Cleaner</h3>
+                    <p class="price">R5999.99</p>
+                    <button class="btn btn-dark w-100 mt-auto">Buy</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="container my-5" id="contact">
+        <div class="d-flex align-items-start gap-4">
+            <div class="flex-shrink-0">
+                <img src="https://placehold.co/80x80/333333/FFFFFF?text=AN_Online" class="img-fluid rounded"
+                    alt="Company Logo" style="width: 60px; height: auto;">
+            </div>
+
+            <div class="flex-grow-1">
+                <form>
+                    <div class="row mb-3">
+                        <label for="inputName" class="col-sm-3 col-form-label fw-semibold">Full Name</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="inputName" placeholder="example; Alfredo">
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <label for="inputEmail" class="col-sm-3 col-form-label fw-semibold">Email Address</label>
+                        <div class="col-sm-9">
+                            <input type="email" class="form-control" id="inputEmail"
+                                placeholder="example; name@anonline.co.za">
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <label for="inputPhone" class="col-sm-3 col-form-label fw-semibold">Phone Number</label>
+                        <div class="col-sm-9">
+                            <input type="tel" class="form-control" id="inputPhone" placeholder="example; +27722478392">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-9 offset-sm-3">
+                            <button type="submit" class="btn btn-primary px-4">Submit Details</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
